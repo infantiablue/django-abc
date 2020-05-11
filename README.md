@@ -7,7 +7,7 @@ Cheers :D
 ## Setting Up Dev Environment
 
 ### ZSH Shell
-https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/
 
-In order to display active VirtualEnv environment, we need to config `.zshrc` file with following instructions:
-https://github.com/Powerlevel9k/powerlevel9k#customizing-prompt-segments
+Begin with this nice [tutorial](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/).
+
+Then, we need to upgrade to [PowerLevel10k](https://github.com/romkatv/powerlevel10k) theme for ZSH shell.
