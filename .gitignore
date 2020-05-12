@@ -127,4 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#MacoS System File
 .DS_Store
+
+#Viusal Code
+.vscode
