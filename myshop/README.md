@@ -17,3 +17,7 @@ and comment out
 Start RabbitMQ Server
 
 `rabbitmq-server` or `sudo service rabbitmq-server start`
+
+Start Celery service
+
+`celery -A myshop worker -l info`
