@@ -21,3 +21,5 @@ Start RabbitMQ Server
 Start Celery service
 
 `celery -A myshop worker -l info`
+
+Install `pango`

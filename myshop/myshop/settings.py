@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
+import braintree
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -122,11 +123,11 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 STATIC_URL = '/static/'
 
-MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+MEDIA_URL = '/media/'
 
 THUMBNAIL_DEBUG = True
 
@@ -143,7 +144,6 @@ BRAINTREE_MERCHANT_ID = 'cnkshzynwmzfws7f'  # Merchant ID
 BRAINTREE_PUBLIC_KEY = 'fgzd4xtqw5q5qs2z'   # Public Key
 BRAINTREE_PRIVATE_KEY = '15816187f2ffd23e50712c2a116123ee'  # Private key
 
-import braintree
 BRAINTREE_CONF = braintree.Configuration(
     braintree.Environment.Sandbox,
     BRAINTREE_MERCHANT_ID,
