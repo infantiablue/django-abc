@@ -14,6 +14,11 @@ and comment out
 
 `NODE_IP_ADDRESS=127.0.0.1`
 
+Install `pango`
+
+* For Mac: `brew install pango`
+* For Ubuntu: `sudo apt-get install -y libsdl-pango-dev`
+
 Start RabbitMQ Server
 
 `rabbitmq-server` or `sudo service rabbitmq-server start`
@@ -22,7 +27,6 @@ Start Celery service
 
 `celery -A myshop worker -l info`
 
-Install `pango`
+Or use the included services.sh:
 
-* For Mac: `brew install pango`
-* For Ubuntu: `sudo apt-get install -y libsdl-pango-dev`
+`./services.sh`
