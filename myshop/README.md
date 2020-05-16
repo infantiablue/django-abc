@@ -23,3 +23,6 @@ Start Celery service
 `celery -A myshop worker -l info`
 
 Install `pango`
+
+* For Mac: `brew install pango`
+* For Ubuntu: `sudo apt-get install -y libsdl-pango-dev`
