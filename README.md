@@ -1,7 +1,14 @@
-# django-abc
+# About This Repo
 
 This repo is created to learn, explore and play around django framework 3.
 Notes, useful tricks, links would be documented along the way.
+
+- [About This Repo](#about-this-repo)
+  - [Setting Up Dev Environment](#setting-up-dev-environment)
+    - [1. ZSH Shell](#1-zsh-shell)
+    - [2. Visual Code](#2-visual-code)
+  - [Github](#github)
+  - [Useful Links](#useful-links)
 
 ## Setting Up Dev Environment
 
@@ -15,7 +22,7 @@ Then, we need to upgrade to [PowerLevel10k](https://github.com/romkatv/powerleve
 
 Default `settings.json` file:
 
-```
+```js
 {
     "editor.formatOnSave": true,
     "files.exclude": {
@@ -42,17 +49,19 @@ Default `settings.json` file:
 }
 ```
 
-VSCode Extension:
-* Magic Python
-* Beautify
-* Markdown All In One
-* Remote - WSL *(Windows Only)*
+**VSCode Extension:**
+
+- Magic Python
+- Beautify
+- Markdown All In One
+- Remote - WSL *(Windows Only)*
+- Markdownlint
 
 Open settings.json in current workspace then, update `"python.pythonPath": "Your_venv_path/bin/python"` under workspace settings. (For Windows): Update `"python.pythonPath": "Your_venv_path/Scripts/python.exe"` under workspace settings.
 
 Create file `.vscode/launch.json` for debug:
 
-```
+```js
 {
     "configurations": [
         {
@@ -70,10 +79,18 @@ Create file `.vscode/launch.json` for debug:
 }
 ```
 
+## Github
+
+Re-Checkout:
+
+```git
+git rm --cached -r .
+git reset
+git checkout .
+```
 
 ## Useful Links
 
 Database
 
-* [How to transfer data from SQLite to another database](https://medium.com/@kenyattaanthony88/django-transfer-data-from-sqlite-to-another-database-edab51d79dfc)
-
+- [How to transfer data from SQLite to another database](https://medium.com/@kenyattaanthony88/django-transfer-data-from-sqlite-to-another-database-edab51d79dfc)
