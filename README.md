@@ -94,3 +94,5 @@ git checkout .
 Database
 
 - [How to transfer data from SQLite to another database](https://medium.com/@kenyattaanthony88/django-transfer-data-from-sqlite-to-another-database-edab51d79dfc)
+- [11 rules to design database](https://www.codeproject.com/Articles/359654/11-important-database-designing-rules-which-I-fo-2)
+- [How to design database](https://viblo.asia/p/lam-the-nao-de-thiet-ke-mot-co-so-du-lieu-phan-1-rYvGwavgKVw)
