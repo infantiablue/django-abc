@@ -56,6 +56,7 @@ Default `settings.json` file:
 - Markdown All In One
 - Remote - WSL *(Windows Only)*
 - Markdownlint
+- Django
 
 Open settings.json in current workspace then, update `"python.pythonPath": "Your_venv_path/bin/python"` under workspace settings. (For Windows): Update `"python.pythonPath": "Your_venv_path/Scripts/python.exe"` under workspace settings.
 
