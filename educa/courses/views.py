@@ -115,7 +115,8 @@ class ContentCreateUpdateView(TemplateResponseMixin, View):
     def get(self, request, module_id, model_name, id=None):
         form = self.get_form(self.model, instance=self.obj)
         # print(form.as_p())
-        print(form['file'].__dict__)
+        # print(type(self.obj))
+        # print(self.obj.owner)
         return self.render_to_response({'form': form,
                                         'object': self.obj})
 
