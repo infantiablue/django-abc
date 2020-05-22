@@ -93,6 +93,8 @@ and then add Python interpreter in `.vscode/settings.json` (in current workspace
 
 ## Github
 
+[Use SSH keys to authenticate](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
+
 Re-Checkout:
 
 ```git
