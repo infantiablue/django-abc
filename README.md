@@ -62,7 +62,7 @@ Default `settings.json` file:
 
 Open settings.json in current workspace then, update `"python.pythonPath": "Your_venv_path/bin/python"` under workspace settings. (For Windows): Update `"python.pythonPath": "Your_venv_path/Scripts/python.exe"` under workspace settings.
 
-Create file `.vscode/launch.json` for debug:
+Create file `.vscode/launch.json` (in current workspace) for debug:
 
 ```js
 {
@@ -79,6 +79,14 @@ Create file `.vscode/launch.json` for debug:
             "django": true
         },
     ]
+}
+```
+
+and then add Python interpreter in `.vscode/settings.json` (in current workspace): 
+
+```js
+{
+    "python.pythonPath": "env/bin/python",
 }
 ```
 
