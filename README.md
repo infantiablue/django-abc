@@ -9,6 +9,8 @@ Notes, useful tricks, links would be documented along the way.
     - [2. Visual Code](#2-visual-code)
   - [Github](#github)
   - [Useful Links](#useful-links)
+  - [Azure Configuration](#azure)
+  - [SAAS](#saas)
 
 ## Setting Up Dev Environment
 
@@ -97,6 +99,9 @@ Database
 - [How to transfer data from SQLite to another database](https://medium.com/@kenyattaanthony88/django-transfer-data-from-sqlite-to-another-database-edab51d79dfc)
 - [11 rules to design database](https://www.codeproject.com/Articles/359654/11-important-database-designing-rules-which-I-fo-2)
 - [How to design database](https://viblo.asia/p/lam-the-nao-de-thiet-ke-mot-co-so-du-lieu-phan-1-rYvGwavgKVw)
+
+##Azure
+- [Use SSH keys to connect VM server](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/create-ssh-keys-detailed)
 
 ## SAAS
 - [RabbitMQ](https://www.cloudamqp.com/plans.html)
