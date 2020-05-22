@@ -67,19 +67,19 @@ Create file `.vscode/launch.json` (in current workspace) for debug:
 
 ```js
 {
-    "configurations": [
-        {
-            "name": "Python: Django",
-            "type": "python",
-            "request": "launch",
-            "program": "${workspaceFolder}/manage.py",
-            "console": "integratedTerminal",
-            "args": [
-                "runserver",
-            ],
-            "django": true
-        },
-    ]
+    "configurations": [{
+        "name": "Python: Django",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/manage.py",
+        "console": "integratedTerminal",
+        "args": [
+            "runserver",
+            //change the settings between local and pro
+            "--settings=bookmarks.settings.local",
+        ],
+        "django": true
+    }, ]
 }
 ```
 
