@@ -59,6 +59,7 @@ Default `settings.json` file:
 - Remote - WSL *(Windows Only)*
 - Markdownlint
 - Django
+- Visual IntelliCode
 
 Open settings.json in current workspace then, update `"python.pythonPath": "Your_venv_path/bin/python"` under workspace settings. (For Windows): Update `"python.pythonPath": "Your_venv_path/Scripts/python.exe"` under workspace settings.
 
@@ -114,5 +115,5 @@ Database
 ## SAAS
 - [RabbitMQ](https://www.cloudamqp.com/plans.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzI4ODI0XX0=
+eyJoaXN0b3J5IjpbMTA4MjY5MDg2MSwtOTYzMjg4MjRdfQ==
 -->
