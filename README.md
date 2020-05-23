@@ -102,6 +102,7 @@ git rm --cached -r .
 git reset
 git checkout .
 ```
+[Guide](https://rogerdudler.github.io/git-guide/index.vi.html)
 
 ## Useful Links
 
