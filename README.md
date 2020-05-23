@@ -104,6 +104,13 @@ git checkout .
 ```
 [Guide](https://rogerdudler.github.io/git-guide/index.vi.html)
 
+Force Pull:
+
+```git
+git fetch --all
+git reset --hard origin/master
+```
+
 ## Useful Links
 
 Database
